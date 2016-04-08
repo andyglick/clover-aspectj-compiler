@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.atlassian.clover</groupId>
     <artifactId>clover-aspectj-compiler</artifactId>
-    <version>0.8.0</version>
+    <version>0.8.1-SNAPSHOT</version>
     <parent>
         <groupId>com.atlassian.pom</groupId>
         <artifactId>public-pom</artifactId>
@@ -33,7 +33,7 @@
         <connection>scm:hg:ssh://hg@bitbucket.org/atlassian/clover-aspectj-compiler</connection>
         <developerConnection>scm:hg:ssh://hg@bitbucket.org/atlassian/clover-aspectj-compiler</developerConnection>
         <url>https://bitbucket.org/atlassian/clover-aspectj-compiler/src</url>
-      <tag>clover-aspectj-compiler-0.8.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <developers>
         <developer>
