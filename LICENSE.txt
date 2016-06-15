@@ -1,5 +1,13 @@
-The Clover AspectJ Compiler is licensed under the Apache 2.0 license (http://www.apache.org/licenses/LICENSE-2.0). However, binary dependencies have different licences:
+The Clover AspectJ Compiler is licensed under the Apache 2.0 license (http://www.apache.org/licenses/LICENSE-2.0). 
+
+However, binary dependencies have different licences:
 
 1) com.atlassian.clover:clover is a commercial software, see http://www.atlassian.com/software/clover/licensing.jsp
 
-2) org.aspectj:aspectjtools is licensed under Eclipse Public License
+2) org.aspectj:aspectjrt and org.aspectj:aspectjtools are licensed under Eclipse Public License
+
+We also use third party libraries for testing purposes:
+
+3) junit:junit is licensed under Eclipse Public License 1.0
+
+4) org.apache.commons:commons-exec is licensed under Apache 2.0 license (http://www.apache.org/licenses/LICENSE-2.0)
