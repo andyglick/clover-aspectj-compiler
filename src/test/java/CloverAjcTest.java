@@ -57,7 +57,7 @@ public class CloverAjcTest {
         final String M2 = System.getProperty("user.home") + "/.m2/repository/";
         final String CLASSPATH = FileUtils.getPlatformSpecificPath(
                 M2 + "org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9.jar" + File.pathSeparator
-                + M2 + "com/atlassian/clover/clover/4.1.1/clover-4.1.1.jar" + File.pathSeparator
+                + M2 + "com/atlassian/clover/clover/4.1.2/clover-4.1.2.jar" + File.pathSeparator
                 + TARGET_CLASSES_DIR);
         JavaExecutor.launchJava("-cp", CLASSPATH, "introduction.Point");
         JavaExecutor.launchJava("-cp", CLASSPATH, "introduction.CloneablePoint");
